@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quiz JavaScript</h1>
+    <p>What will be the output of thw following JavaScript code?</p>
+    <ul>
+        <div>
+        <input type="checkbox" name="primero" id="uno">
+        <label for="uno">10</label><br>
+        <input type="checkbox" name="segundo" id="dos">
+        <label for="dos">50</label><br>
+        <input type="checkbox" name="tercero" id="tres">
+        <label for="tres">5</label><br>
+        <input type="checkbox" name="cuarto" id="cuatro">
+        <label for="cuatro">Error</label>
+    </div>
+    </ul>
+    
+    <input type="button" id="cinco" value="Check answer"></button>
+    <div id="seis"></div>
+    <script>
+        
+        var input = document.getElementById('cinco');
+        var answer = document.getElementById('seis');
+            document.getElementById('cinco').onclick = function(){
+                if(input="Check answer"){
+                    this.value="Hide";
+                    if(document.getElementById('uno').checked){
+                document.write="algo"
+            }else if(document.getElementById('dos').checked){
+                alert("Please");
+            }else if(document.getElementById('tres').checked){
+                alert("Please enter");
+            }else if(document.getElementById('cuatro').checked){
+                alert("Please enter");
+            }
+                }else if(input="Hide"){
+                    this.value="Check answer";
+                }
+            };
+           
+            
+
+        
+    </script>
+</body>
+</html>
